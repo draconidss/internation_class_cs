@@ -1,5 +1,54 @@
 public class Unit4Iteration {
 
+    public void infiniteLoop() {
+        // infinite for interation
+        for (int i = 10; i >= 10; i++){
+            System.out.println(i);
+        }
+    
+        // infinite while iteration
+        int i = 10;
+        while (i >= 10){
+            System.out.println(i);
+            i++;
+        }
+    }
+    
+    // Find all the factors of an integer (n)
+    public static void factors(int n){
+        System.out.println("factors of :" + n);
+        int i = 1;
+        while (i <= n){
+            if (n % i == 0){
+                System.out.println("the factor of " + n + " is:" + i);
+            }
+            i++;
+        }
+    }
+    
+    // Find the sum of all the digits in an integer (n)
+    public static void sumOfDigits(int n){
+        System.out.print("sum of digits of " + n + " is: ");
+        int sum = 0;
+        while (n >= 0){
+            if (n > 10){
+                sum += (n % 10); // last digit
+                n /= 10; // remove the last digit     
+            }
+            else { // when n <= 10
+                sum += n;
+                break; // terminate
+            }
+        }
+        System.out.println(sum);
+    }
+    // Reverse the order of the characters in a string.
+    public static void reverseString(String str){
+        String newString;
+         
+        // newString = chr + newString
+        
+    }
     // iteration: for 
     public static void forIteration() {
         // for iteration that print 0 to 4, code execute sequence:
@@ -62,7 +111,12 @@ public class Unit4Iteration {
                 break;
             }
         }
+        
+        // Find all the factors of an integer (n)
+        factors(12);
 
+        // Find the sum of digits of an integer (n)
+        sumOfDigits(2345678);
     }
 
     public static void main(String[] args) {
