@@ -7,7 +7,7 @@ public class Unit5WritingClasses {
             System.out.println("No name, No grade");
         }
 
-        public Student(String studentName, int studentGrade){
+        public Student(String studentName, int studentGrade) {
             name = studentName;
             grade = studentGrade;
         }
