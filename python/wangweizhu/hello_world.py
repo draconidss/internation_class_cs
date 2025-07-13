@@ -1,0 +1,1 @@
+message = "Life's \"pathetic, let's pythonic."
