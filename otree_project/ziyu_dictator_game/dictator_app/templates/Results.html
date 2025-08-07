@@ -1,0 +1,17 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}结果{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <h5>分配结果</h5>
+        <p>独裁者决定分配: <strong>{{ dictator_decision }}</strong></p>
+        <p>独裁者保留: <strong>{{ kept }}</strong></p>
+        <hr>
+        <p>您的收益: <strong>{{ player.payoff }}</strong></p>
+    </div>
+</div>
+{% next_button %}
+{% endblock %}

@@ -7,3 +7,5 @@ for magician in magicians:
 # print("magicians[1] : ", magicians[1])
 # print("magicians[2] : ", magicians[2])
 # print("magicians[3] : ", magicians[3])
+else:
+    print('a')
