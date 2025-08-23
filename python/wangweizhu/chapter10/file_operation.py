@@ -15,3 +15,11 @@ print("len(pi_string): ", len(pi_string))
 # write file
 path = Path('/Users/chenlong/workspace/internation_class_cs/python/wangweizhu/chapter10/programming.txt')
 path.write_text('I love programming.')
+
+try:
+    path = Path('alice.txt')
+except FileNotFoundError:
+    contents = path.read_text(encoding='utf-8')
+# else:
+#     print("contine")
+print("contine")
