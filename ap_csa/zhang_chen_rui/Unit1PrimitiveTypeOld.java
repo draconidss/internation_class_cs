@@ -1,6 +1,6 @@
 package ap_csa.xu_chen_rui;
 
-public class Unit1PrimitiveType {
+public class Unit1PrimitiveTypeOld {
 
     // primitive type
     public static void primitiveType() {
