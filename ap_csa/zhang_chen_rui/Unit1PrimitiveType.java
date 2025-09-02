@@ -38,6 +38,25 @@ public class Unit1PrimitiveType {
         System.out.println("10 / 3 + 10 % 3:" + (10 / 3 + 10 % 3));
     }
 
+    public static void castingAndRangeOfVariable() {
+        // int n = 100000000000;
+        System.out.println(Integer.MAX_VALUE); // 2147483647
+        System.out.println(Integer.MIN_VALUE); // -2147483648
+        int m = 25;
+        double n = 66.69;
+        n = m; // safe
+        // m = n; // unsafe
+        m = (int)66.69;// safe: m is 66
+        System.out.println("n:" + n);
+        System.out.println("m:" + m);
+
+        int total = 10;
+        int count = 3;
+        double result = (double) total / count;// result is 3.33
+        System.out.println("result:" + result);
+
+    }
+
     public static void main(String[] args) {
         System.out.print("Hello ChenRui!");
         // System.out.println("Hello World!");
@@ -46,5 +65,6 @@ public class Unit1PrimitiveType {
 
         dataTypes();
         arithmetic();
+        castingAndRangeOfVariable();
     }
 }

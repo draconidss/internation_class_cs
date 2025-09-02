@@ -1,4 +1,4 @@
-package ap_csa.xu_chen_rui;
+package ap_csa.zhang_chen_rui;
 
 public class Unit2UsingObjects {
     
@@ -64,6 +64,12 @@ public class Unit2UsingObjects {
         int str16CompareTostr15 = str16.compareTo(str15);
         System.out.println("str15.compareTo(str16):" + str15CompareTostr16); // -2
         System.out.println("str16.compareTo(str15):" + str16CompareTostr15); // 2
+
+        String eSent = "hello233";
+        String fSent = "hello666";
+        String gSent = "helloabc";
+        System.out.println(eSent.compareTo(fSent));//value<0
+        System.out.println(eSent.compareTo(gSent));//value >0
         
 
     }
