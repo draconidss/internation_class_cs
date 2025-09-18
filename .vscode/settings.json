@@ -40,6 +40,8 @@
         "variant": "cpp",
         "vector": "cpp",
         "memory": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "iomanip": "cpp",
+        "map": "cpp"
     }
 }
