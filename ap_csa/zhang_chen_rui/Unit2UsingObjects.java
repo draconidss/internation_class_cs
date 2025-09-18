@@ -2,7 +2,7 @@ package ap_csa.zhang_chen_rui;
 
 public class Unit2UsingObjects {
     
-    public static void Strings() {
+    public static void strings() {
         // two ways declare String
         String str1 = "abc__1";
         String str2 = new String("abc__1");
@@ -70,11 +70,53 @@ public class Unit2UsingObjects {
         String gSent = "helloabc";
         System.out.println(eSent.compareTo(fSent));//value<0
         System.out.println(eSent.compareTo(gSent));//value >0
-        
-
     }
 
+    public static void mathMethods() {
+        int aAbs = Math.abs(-1);//aAbs is 1
+        double bAbs = Math.abs(-66.6);//bAbs is 66.6
+        double aPow = Math.pow(3.0, 2.0);//aPow is 9.0
+        double aSqrt = Math.sqrt(64); //aSqrt is 8.0
+        System.out.println("aAbs: " + aAbs);
+        System.out.println("bAbs: " + bAbs);
+        System.out.println("aPow: " + aPow);
+        System.out.println("aSqrt: " + aSqrt);
+
+        // random
+        System.out.println(Math.random());
+        System.out.println(Math.random());
+        System.out.println(Math.random());
+
+        System.out.println((Math.random() * (66 - 33) + 33));
+        System.out.println((Math.random() * (66 - 33) + 33));
+        System.out.println((Math.random() * (66 - 33) + 33));
+
+    }
+    
+    public static void wrapper() {
+        Integer obj1 = new Integer(45);//equal: Integer obj1 = 45;
+        int num1 = obj1.intValue(); //num1 is an int value
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+
+        Integer obj3;
+        int num3 = 69;
+        obj3 = num3;// autoboxing: automatically creates an Integer object
+        System.out.println(obj3); // 69
+    }
+    
+    public static int name(int a) {
+        System.err.println(a);
+        return a;
+    }
+            
     public static void main(String[] args) {
-        Strings();
+        System.out.println("Strings(): ");
+        strings();
+        System.out.println("MathMethods(): ");
+        mathMethods();
+        System.out.println("Wrapper(): ");
+        wrapper();
+        name(10);
     }
 }
