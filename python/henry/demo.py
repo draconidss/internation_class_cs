@@ -55,9 +55,16 @@ tl = 3, 4, 5
 t2 = 9, 5, 2
 t3 = 3, 4
 t4 = 9, 4, 3
-t5 = 2,
+t5 = (2,)
 t6 = t3 + t5
 l = [tl, t2, t3, t4, t5, t6]
 l.sort()
 for v in l:
     print(v, end=".")
+
+print()
+filter_code = ""
+for c in "01Python":
+    if c in '0123456789':
+        filter_code += c
+print(filter_code)

@@ -6,5 +6,7 @@ public class Main {
         System.out.println("Hello Draco!");
         System.out.print("winter is coming");
         System.out.print("winter is coming");
+
+        System.out.println(10/ 0);
     }
 }

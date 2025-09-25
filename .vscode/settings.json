@@ -42,6 +42,9 @@
         "memory": "cpp",
         "algorithm": "cpp",
         "iomanip": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "file.h": "c",
+        "stdio.h": "c",
+        "_stdio.h": "c"
     }
 }

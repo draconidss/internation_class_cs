@@ -25,4 +25,5 @@ int main(){             //主函数，程序从此处开始执行
     cout << a;
     cout << rand_func() << endl;
     return 0; // 返回0，表示程序正常结束
+
 }

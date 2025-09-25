@@ -3,5 +3,27 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Unit1PrimitiveType",
+            "request": "launch",
+            "mainClass": "ap_csa.loren.Unit1PrimitiveType",
+            "projectName": "internation_class_cs_f014c9dc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ap_csa.loren.Main",
+            "projectName": "internation_class_cs_f014c9dc"
+        },
+        {
+            "type": "java",
+            "name": "Unit2UsingObject",
+            "request": "launch",
+            "mainClass": "ap_csa.huang_yu_chen.Unit2UsingObject",
+            "projectName": "internation_class_cs_f014c9dc"
+        }
+    ]
 }
