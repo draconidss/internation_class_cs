@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindTheNumberOfYear",
+            "request": "launch",
+            "mainClass": "ap_csa.wang_chu_heng.Homework.FindTheNumberOfYear",
+            "projectName": "internation_class_cs_f014c9dc"
+        },
+        {
+            "type": "java",
             "name": "Unit1PrimitiveType",
             "request": "launch",
             "mainClass": "ap_csa.loren.Unit1PrimitiveType",
