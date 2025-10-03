@@ -11,7 +11,7 @@ print()
 
 # string
 string1 = "string1"
-string2 = 'string2'
+string2 = "string2"
 string3 = """aaa
 bbb"""
 
@@ -30,7 +30,7 @@ print(name1)
 name2 = "abc\n\ndef"
 print(name2)
 
-#remove string blank
+# remove string blank
 name3 = " iTuring "
 print(name3)
 
@@ -56,7 +56,7 @@ url1 = url1.removeprefix("aabb")
 print("url1: " + url1)
 
 # string syntax
-str1 = "life\'s pathetic\""
+str1 = "life's pathetic\""
 print("str1:" + str1)
 
 # string addition
@@ -78,16 +78,16 @@ print(2.5 * 2)
 print(1.5 * 1.5)
 
 # number: divide operate
-print(3 / 3) # 1.0
-print(2.5 / 2) # 1.25
-print(2 / 4) # 0.5
-print(3 // 3) # 1
-print(1 // 2) # 0
-print(2.5 // 2) # 1.0
+print(3 / 3)  # 1.0
+print(2.5 / 2)  # 1.25
+print(2 / 4)  # 0.5
+print(3 // 3)  # 1
+print(1 // 2)  # 0
+print(2.5 // 2)  # 1.0
 
 # number: double multi operate
-print(3 ** 3) # 27
-print(2.5 ** 2) # 6.25
+print(3**3)  # 27
+print(2.5**2)  # 6.25
 
 # boolean
 bool1 = True
@@ -96,7 +96,7 @@ print("bool1: " + str(bool1))
 print("bool2: " + str(bool2))
 
 # multi variable
-a,b,c = 0,"b",True
+a, b, c = 0, "b", True
 
 # constant
-MAX_CONNECTIONS = 100 # comment
+MAX_CONNECTIONS = 100  # comment

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Unit2UsingObject",
+            "request": "launch",
+            "mainClass": "ap_csa.miller.Unit2UsingObject",
+            "projectName": "internation_class_cs_f014c9dc"
+        },
+        {
+            "type": "java",
             "name": "FindTheNumberOfYear",
             "request": "launch",
             "mainClass": "ap_csa.wang_chu_heng.Homework.FindTheNumberOfYear",

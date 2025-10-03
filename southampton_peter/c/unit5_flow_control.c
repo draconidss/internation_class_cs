@@ -41,5 +41,10 @@ int main()
 
     }
 
+    //if True， infinite loop
+    // if(1){
+
+    // } 
+
     return 0;
 }

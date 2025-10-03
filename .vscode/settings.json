@@ -45,6 +45,11 @@
         "map": "cpp",
         "file.h": "c",
         "stdio.h": "c",
-        "_stdio.h": "c"
+        "_stdio.h": "c",
+        "__config": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "iterator": "cpp",
+        "unordered_map": "cpp"
     }
 }

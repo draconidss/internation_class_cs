@@ -29,8 +29,5 @@ public class Unit2UsingObject {
       String gSent = "abc";
       System.out.println(eSent.compareTo(fSent));//value<0
       System.out.println(eSent.compareTo(gSent));//value >0
-
-      String str_1 = null;
-      int len = str_1.length();//Error:NullPointerException
    }
 }
