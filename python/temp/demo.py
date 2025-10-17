@@ -63,5 +63,35 @@ print(f"False and False: {False and False}")  # False
 # and or not
 # True and False
 
-print(f"not False: {not False}") # True
-print(f"not True: {not True}") # False
+print(f"not False: {not False}")  # True
+print(f"not True: {not True}")  # False
+
+x = 2022
+y = 2023
+if x < y:
+    print("x is smaller than y")
+# x > y or x == y
+elif x > y:
+    print("x is greater than y")
+# x == y
+else:
+    print("x", "=", "y")
+
+count = 9
+while count > 0:
+    if count % 7 == 0:
+        count -= 1
+        continue
+    print("counter", count)
+    count -= 1
+
+print((1.1 + 2.2) == 3.3)
+
+print("aaa".count("a"))
+
+for i, c in enumerate("abcd"):
+    print(i, c)
+
+"abcd".index("b")  # get index of b
+
+print(ord("A") - ord("a"))

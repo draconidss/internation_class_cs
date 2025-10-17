@@ -1,6 +1,9 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+
+int main(void)
 {
+    int a = 3 + 1;
+    printf("a: %d\n", a);
     char c = 'B' + 32;
     printf("%i\n", 'B' + 32);
     printf("c: %c\n", c);

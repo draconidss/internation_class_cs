@@ -9,6 +9,5 @@ public class HelloWorld {
          * 3
          */
         System.out.println("Hello, WangChuHeng!");
-        System.out.println(10 / 0);
     }
 }
