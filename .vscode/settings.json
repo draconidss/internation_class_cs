@@ -58,7 +58,8 @@
     "type_traits": "cpp",
     "utility": "cpp",
     "complex": "cpp",
-    "__assert": "cpp"
+    "__assert": "cpp",
+    "string.h": "c"
   },
   "C_Cpp.default.compilerPath": "/usr/bin/clang++",
   "C_Cpp_Runner.msvcBatchPath": "",
