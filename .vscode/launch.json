@@ -3,6 +3,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lecture9Lab1",
+      "request": "launch",
+      "mainClass": "ap_csa.miller_xu_tong.Lab.Lecture9Lab1",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
+      "name": "Lecture3Lab1",
+      "request": "launch",
+      "mainClass": "ap_csa.miller_xu_tong.Lab.Lecture3Lab1",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
+      "name": "Lecture2Lab1",
+      "request": "launch",
+      "mainClass": "ap_csa.miller_xu_tong.Lab.Lecture2Lab1",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
+      "name": "Lecture2Lab2",
+      "request": "launch",
+      "mainClass": "ap_csa.miller_xu_tong.Lab.Lecture2Lab2",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
+      "name": "demo",
+      "request": "launch",
+      "mainClass": "ap_csa.shi_jun_lin.demo",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
+      "name": "Input",
+      "request": "launch",
+      "mainClass": "ap_csa.huang_yu_chen.Input",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
+      "name": "MyClassCorrect",
+      "request": "launch",
+      "mainClass": "java_study.lang_jun_yu.homework.MyClassCorrect",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
+      "name": "MyClassCorrect",
+      "request": "launch",
+      "mainClass": "java.lang_jun_yu.homework.MyClassCorrect",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
+      "name": "MyClass",
+      "request": "launch",
+      "mainClass": "java.lang_jun_yu.homework.MyClass",
+      "projectName": "internation_class_cs_f014c9dc"
+    },
+    {
+      "type": "java",
       "name": "Unit3BooleanExpression",
       "request": "launch",
       "mainClass": "ap_csa.huang_yu_chen.Unit3BooleanExpression",
@@ -47,8 +110,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/chenlong/workspace/internation_class_cs/southampton_peter/c",
-      "program": "/Users/chenlong/workspace/internation_class_cs/southampton_peter/c/build/Debug/outDebug"
+      "cwd": "/Users/chenlong/workspace/internation_class_cs/usaco/usaco_li_zi_xi/practice",
+      "program": "/Users/chenlong/workspace/internation_class_cs/usaco/usaco_li_zi_xi/practice/build/Debug/outDebug"
     }
   ]
 }
