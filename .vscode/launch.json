@@ -110,8 +110,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/chenlong/workspace/internation_class_cs/usaco/usaco_li_zi_xi/practice",
-      "program": "/Users/chenlong/workspace/internation_class_cs/usaco/usaco_li_zi_xi/practice/build/Debug/outDebug"
+      "cwd": "/Users/chenlong/workspace/internation_class_cs/c++/li_he",
+      "program": "/Users/chenlong/workspace/internation_class_cs/c++/li_he/build/Debug/outDebug"
     }
   ]
 }

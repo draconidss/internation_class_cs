@@ -3,7 +3,7 @@ using namespace std;
  
 #include <iomanip>
 using std::setw;
- 
+
 int main (){
     int arr_1[1][2] = {{1, 2}};
 
