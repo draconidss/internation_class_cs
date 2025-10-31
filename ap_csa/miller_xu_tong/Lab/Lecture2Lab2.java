@@ -1,4 +1,4 @@
-package ap_csa.miller_xu_tong.Lab;
+
 
 public class Lecture2Lab2 {
     public static void main(String[] args) {

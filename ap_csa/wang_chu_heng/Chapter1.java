@@ -1,4 +1,4 @@
-package ap_csa.wang_chu_heng;
+
 
 public class Chapter1 {
     public static void main(String[] args) {

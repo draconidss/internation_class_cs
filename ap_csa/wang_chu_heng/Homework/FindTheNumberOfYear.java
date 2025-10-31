@@ -1,4 +1,4 @@
-package ap_csa.wang_chu_heng.Homework;
+
 
 import java.util.Scanner;
 

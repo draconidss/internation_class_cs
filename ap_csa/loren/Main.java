@@ -1,4 +1,4 @@
-package ap_csa.loren;
+
 
 public class Main {
     // the enter of program
@@ -6,7 +6,7 @@ public class Main {
         Integer num;
         int number = 10;
         num = number;
-        Integer num = new Integer(number);
+        // Integer num = new Integer(number);
 
 
         boolean flag = false;

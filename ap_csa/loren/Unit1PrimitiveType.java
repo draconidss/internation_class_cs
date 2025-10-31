@@ -1,4 +1,4 @@
-package ap_csa.loren;
+
 
 public class Unit1PrimitiveType {
     public static void main(String[] args) {
